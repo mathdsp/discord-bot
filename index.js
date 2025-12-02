@@ -7,15 +7,6 @@ const {
   GatewayIntentBits,
   MessageFlags,
 } = require("discord.js");
-const fs = require("node:fs");
-const path = require("node:path");
-const {
-  Client,
-  Collection,
-  Events,
-  GatewayIntentBits,
-  MessageFlags,
-} = require("discord.js");
 const { token } = require("./config.json");
 
 // Create a new client instance
